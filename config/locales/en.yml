@@ -33,5 +33,5 @@ en:
   hello: "Hello world"
   static_pages:
     index:
-      heading: "Hi! Im Leo"
+      heading: "Hi! I'm Leo"
       subheading: "Passionate about building things on the web."
