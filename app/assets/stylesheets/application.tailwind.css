@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Heebo";
+    src: url("/fonts/Heebo.ttf");
+  }
+}
+
 .section-container {
   @apply max-w-4xl mx-auto;
 }
