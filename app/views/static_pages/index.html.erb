@@ -59,13 +59,9 @@
     <ul class="grid md:grid-cols-2 gap-8">
       <li>
         <figure class="relative rounded-2xl">
-          <img
-            src=""
-            alt=""
-            class="w-full h-[300px] md:h-[275px] object-cover rounded-2xl shadow-md"
-          />
+          <%= image_tag("age-calculator-app-1080", class: "w-full h-[300px] md:h-[275px] object-cover rounded-2xl shadow-md") %>
           <figcaption
-            class="absolute top-0 left-0 w-full h-full bg-darkBlue rounded-2xl p-4 transition-opacity duration-500 text-white opacity-100">
+            class="absolute top-0 left-0 w-full h-full bg-darkBlue rounded-2xl p-4 transition-opacity duration-500 text-white opacity-0">
             <div class="w-full h-full flex flex-col items-center justify-center text-center">
               <h2 class="text-xl mb-2">Project name</h2>
               <p class="mb-4">Project description</p>
@@ -89,22 +85,10 @@
             <div class="absolute bottom-0 text-white left-[50%] -translate-x-[50%] translate-y-[50%]">
               <ul class="flex gap-1">
                 <li class="w-[40px] h-[40px] bg-white p-[4px] rounded-full flex items-center justify-center shadow-[0_3px_5px_-2px_rgba(0,0,0,0.3)]">
-                  <img
-                    src=""
-                    alt=""
-                    width=0
-                    height=0
-                    class="w-full h-full rounded-full"
-                  />
+                  <%= render_svg("rails", class: "w-full h-full rounded-full") %>
                 </li>
                 <li class="w-[40px] h-[40px] bg-white p-[4px] rounded-full flex items-center justify-center shadow-[0_3px_5px_-2px_rgba(0,0,0,0.3)]">
-                  <img
-                    src=""
-                    alt=""
-                    width=0
-                    height=0
-                    class="w-full h-full rounded-full"
-                  />
+                  <%= render_svg("tailwind", class: "w-full h-full rounded-full") %>
                 </li>
               </ul>
             </div>
@@ -113,11 +97,7 @@
       </li>
       <li>
         <figure class="relative rounded-2xl">
-          <img
-            src=""
-            alt=""
-            class="w-full h-[300px] md:h-[275px] object-cover rounded-2xl shadow-md"
-          />
+          <%= image_tag("trivia-whiz-app", class: "w-full h-[300px] md:h-[275px] object-cover rounded-2xl shadow-md") %>
           <figcaption
             class="absolute top-0 left-0 w-full h-full bg-darkBlue rounded-2xl p-4 transition-opacity duration-500 text-white opacity-100">
             <div class="w-full h-full flex flex-col items-center justify-center text-center">
@@ -143,22 +123,10 @@
             <div class="absolute bottom-0 text-white left-[50%] -translate-x-[50%] translate-y-[50%]">
               <ul class="flex gap-1">
                 <li class="w-[40px] h-[40px] bg-white p-[4px] rounded-full flex items-center justify-center shadow-[0_3px_5px_-2px_rgba(0,0,0,0.3)]">
-                  <img
-                    src=""
-                    alt=""
-                    width=0
-                    height=0
-                    class="w-full h-full rounded-full"
-                  />
+                  <%= render_svg("rails", class: "w-full h-full rounded-full") %>
                 </li>
                 <li class="w-[40px] h-[40px] bg-white p-[4px] rounded-full flex items-center justify-center shadow-[0_3px_5px_-2px_rgba(0,0,0,0.3)]">
-                  <img
-                    src=""
-                    alt=""
-                    width=0
-                    height=0
-                    class="w-full h-full rounded-full"
-                  />
+                  <%= render_svg("tailwind", class: "w-full h-full rounded-full") %>
                 </li>
               </ul>
             </div>
