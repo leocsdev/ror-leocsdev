@@ -1,11 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @layer base {
   @font-face {
     font-family: "Heebo";
-    src: url("/fonts/Heebo.ttf");
+    src: url("/fonts/Heebo-Regular.ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Heebo";
+    src: url("/fonts/Heebo-SemiBold.ttf");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Heebo";
+    src: url("/fonts/Heebo-Bold.ttf");
+    font-weight: 700;
   }
 }
 
