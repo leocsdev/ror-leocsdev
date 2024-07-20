@@ -12,14 +12,14 @@
 #  updated_at  :datetime         not null
 #
 
-one:
-  title: MyString
-  image: MyString
-  description: MyString
-  body: MyText
+# one:
+#   title: MyString
+#   image: MyString
+#   description: MyString
+#   body: MyText
 
-two:
-  title: MyString
-  image: MyString
-  description: MyString
-  body: MyText
+# two:
+#   title: MyString
+#   image: MyString
+#   description: MyString
+#   body: MyText
