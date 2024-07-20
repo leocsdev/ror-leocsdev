@@ -5,6 +5,7 @@ class CreateBlogPosts < ActiveRecord::Migration[7.0]
       t.string :image
       t.string :description
       t.text :body
+      t.boolean :published, default: false
 
       t.timestamps
     end
