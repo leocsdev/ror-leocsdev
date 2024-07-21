@@ -1,0 +1,18 @@
+<h1 class="mb-5"><%= @blog_post.title %></h1>
+
+<h3 class="mb-3"><%= @blog_post.description %></h3>
+
+<article class="mb-5">
+  <%= @blog_post.body %>
+</article>
+
+<div class="actions">
+  <%= link_to "Edit", edit_blog_post_path(@blog_post),
+                      class: "bg-indigo-500 text-white py-2 px-3" %>
+
+  <%= link_to "Delete", blog_post_path(@blog_post),
+                        method: :delete,
+                        data: { turbo_confirm: "Are you sure?", 
+                                turbo_method: :delete },
+                        class: "bg-red-500 text-white py-2 px-3" %>
+</div>
