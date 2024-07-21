@@ -16,6 +16,11 @@
     <%= form.text_area :body %>
   </div>
 
+  <div class="field mb-5">
+    <%= form.label "Publish" %>
+    <%= form.check_box :published %>
+  </div>
+
   <div class="actions">
     <%= form.submit class: "bg-indigo-500 text-white py-2 px-3" %>
   </div>
