@@ -12,7 +12,7 @@
 #  updated_at  :datetime         not null
 #
 class BlogPost < ApplicationRecord
-  validates :title, presence: true
-  validates :description, presence: true, length: { minimum: 5 }
+  validates :title, presence: true, length: { minimum: 5, maximum: 256 }
+  validates :description, presence: true, length: { minimum: 5, maximum: 256 }
   validates :body, presence: true, length: { minimum: 5 }
 end
